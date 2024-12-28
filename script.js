@@ -134,8 +134,9 @@ function initScrollLock() {
     collapseButton.className = 'collapse-view-btn';
     collapseButton.style.cssText = `
       position: fixed;
-      bottom: 20px;
-      right: 20px;
+      left: 0;
+      right: 0;
+      bottom: 2rem;
       background-color: black;
       color: white;
       border: none;
