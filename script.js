@@ -119,7 +119,7 @@ function initScrollLock() {
             <path d="M12 12v8"/>
             <path d="m9 16 3 3 3-3"/>
           </svg>
-          View Full Site
+          Open Website Preview
         `;
       } else {
         // Expand view
@@ -134,10 +134,7 @@ function initScrollLock() {
     collapseButton.className = 'collapse-view-btn';
     collapseButton.style.cssText = `
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      bottom: 2rem;
       background-color: green;
       color: white;
       border: none;
@@ -158,7 +155,7 @@ function initScrollLock() {
         <path d="M12 20v-8"/>
         <path d="m9 16 3-3 3 3"/>
       </svg>
-      Collapse Site
+      Close This Preview
     `;
 
     document.body.appendChild(collapseButton);
