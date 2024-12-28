@@ -138,7 +138,7 @@ function initScrollLock() {
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: black;
+      background-color: green;
       color: white;
       border: none;
       padding: 12px 24px;
