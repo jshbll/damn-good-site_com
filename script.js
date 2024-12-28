@@ -16,7 +16,7 @@ function createViewOverlay() {
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease;
-    z-index: 1000;
+    z-index: 9000;
   `;
 
   // Create button container for centered positioning
